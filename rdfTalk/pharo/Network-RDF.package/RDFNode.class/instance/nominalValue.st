@@ -1,0 +1,3 @@
+accessing
+nominalValue
+	^ nominalValue

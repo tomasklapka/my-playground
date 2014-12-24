@@ -1,0 +1,4 @@
+grammar
+isegmentSeparator
+	" '/' "
+	^ $/ asParser

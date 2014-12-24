@@ -1,0 +1,15 @@
+{
+	"category" : "Network-RDF",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"prefixes",
+		"terms" ],
+	"name" : "Profile",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

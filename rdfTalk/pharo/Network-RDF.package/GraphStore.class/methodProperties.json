@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:graph:" : "TomasKlipKlapka 12/16/2014 18:29",
+		"delete:" : "TomasKlipKlapka 12/16/2014 18:29",
+		"graph:" : "TomasKlipKlapka 12/16/2014 18:29",
+		"match:subject:predicate:object:" : "TomasKlipKlapka 12/16/2014 18:30",
+		"match:subject:predicate:object:limit:" : "TomasKlipKlapka 12/16/2014 18:30",
+		"merge:graph:" : "TomasKlipKlapka 12/16/2014 18:30",
+		"remove:graph:" : "TomasKlipKlapka 12/16/2014 18:30",
+		"removeMatches:subject:predicate:object:" : "TomasKlipKlapka 12/16/2014 18:30",
+		"removeMatches:triple:" : "TomasKlipKlapka 12/16/2014 18:30" } }

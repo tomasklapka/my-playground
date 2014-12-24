@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"subject:predicate:object:" : "TomasKlipKlapka 12/15/2014 16:05" },
+	"instance" : {
+		"asString" : "TomasKlipKlapka 12/16/2014 19:43",
+		"equals:" : "TomasKlipKlapka 12/15/2014 16:04",
+		"length" : "TomasKlipKlapka 12/15/2014 16:03",
+		"object" : "TomasKlipKlapka 12/15/2014 16:03",
+		"object:" : "TomasKlipKlapka 12/15/2014 16:03",
+		"predicate" : "TomasKlipKlapka 12/15/2014 16:03",
+		"predicate:" : "TomasKlipKlapka 12/15/2014 16:03",
+		"size" : "TomasKlipKlapka 12/15/2014 16:03",
+		"subject" : "TomasKlipKlapka 12/15/2014 16:03",
+		"subject:" : "TomasKlipKlapka 12/15/2014 16:04",
+		"toString" : "TomasKlipKlapka 12/16/2014 19:43" } }

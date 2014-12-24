@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createBlankNode" : "TomasKlipKlapka 12/16/2014 18:07",
+		"createGraph" : "TomasKlipKlapka 12/16/2014 18:07",
+		"createLiteral:" : "TomasKlipKlapka 12/16/2014 18:09",
+		"createLiteral:dataType:" : "TomasKlipKlapka 12/16/2014 18:09",
+		"createLiteral:language:" : "TomasKlipKlapka 12/16/2014 18:09",
+		"createNamedNode:" : "TomasKlipKlapka 12/16/2014 18:09",
+		"createPrefixMap" : "TomasKlipKlapka 12/16/2014 18:10",
+		"createProfile" : "TomasKlipKlapka 12/16/2014 18:10",
+		"createTermMap" : "TomasKlipKlapka 12/16/2014 18:10",
+		"createTriple" : "TomasKlipKlapka 12/16/2014 18:10",
+		"createTripleFromSubject:predicate:object:" : "TomasKlipKlapka 12/16/2014 18:11",
+		"initialize" : "TomasKlipKlapka 12/16/2014 18:10" } }
