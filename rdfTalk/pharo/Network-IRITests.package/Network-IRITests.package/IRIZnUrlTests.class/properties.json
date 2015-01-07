@@ -1,0 +1,14 @@
+{
+	"category" : "Network-IRITests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IRIZnUrlTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

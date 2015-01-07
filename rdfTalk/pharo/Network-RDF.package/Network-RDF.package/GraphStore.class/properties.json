@@ -1,0 +1,14 @@
+{
+	"category" : "Network-RDF",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GraphStore",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

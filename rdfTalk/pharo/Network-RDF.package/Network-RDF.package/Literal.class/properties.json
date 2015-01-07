@@ -1,0 +1,15 @@
+{
+	"category" : "Network-RDF",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"language",
+		"dataType" ],
+	"name" : "Literal",
+	"pools" : [
+		 ],
+	"super" : "RDFNode",
+	"type" : "normal" }

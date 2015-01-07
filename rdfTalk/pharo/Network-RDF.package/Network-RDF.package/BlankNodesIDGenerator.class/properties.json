@@ -1,0 +1,14 @@
+{
+	"category" : "Network-RDF",
+	"classinstvars" : [
+		"count" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BlankNodesIDGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

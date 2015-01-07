@@ -1,0 +1,14 @@
+{
+	"category" : "Network-RDF",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TermMap",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Network-RDF",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"subject",
+		"predicate",
+		"object" ],
+	"name" : "Triple",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
