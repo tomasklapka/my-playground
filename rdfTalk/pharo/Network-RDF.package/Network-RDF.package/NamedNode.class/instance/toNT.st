@@ -1,3 +1,0 @@
-converting
-toNT
-	^ '<', nominalValue asString, '>'

@@ -1,3 +1,0 @@
-accessing
-nominalValue
-	^ nominalValue

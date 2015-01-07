@@ -1,4 +1,0 @@
-grammar
-isegmentSeparator
-	" '/' "
-	^ $/ asParser
