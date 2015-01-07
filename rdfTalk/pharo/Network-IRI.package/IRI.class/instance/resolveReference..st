@@ -14,7 +14,6 @@ resolveReference: aReference
 		ifNotNil: [ 	T := R defragment. ]
 		ifNil: [
 			T := IRI new.
-			T isSchemeUsingPath: R isSchemeUsingPath.
 			R authority
 				ifNotNil: [
 					T copyAuthorityFrom: R.
@@ -22,8 +21,7 @@ resolveReference: aReference
 					R hasQuery ifTrue: [ T queryAddAll: R query ] ]
 				ifNil: [
 					R hasPath
-						ifFalse: [ 
-							T isSchemeUsingPath: self isSchemeUsingPath.
+						ifFalse: [
 							T addPathSegments: self pathSegments.
 							R hasQuery
 								ifTrue: [ T queryAddAll: R query ]
@@ -32,7 +30,6 @@ resolveReference: aReference
 							R firstPathSegment = #/
 								ifTrue: [ T addPathSegments: R pathSegments ]
 								ifFalse: [
-									T isSchemeUsingPath: R isSchemeUsingPath.
 									self hasPath ifTrue: [ T addPathSegments: self pathSegments ].
 									T mergePath: R ]. 
 							R hasQuery ifTrue: [ T queryAddAll: R query ] ].

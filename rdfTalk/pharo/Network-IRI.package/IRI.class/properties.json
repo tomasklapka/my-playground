@@ -6,8 +6,8 @@
 		"parser" ],
 	"commentStamp" : "TomasKlipKlapka 12/18/2014 12:14",
 	"instvars" : [
-		"slashes",
-		"isSchemeUsingPath" ],
+		"isSchemeUsingPath",
+		"isUsingSegmentSeparator" ],
 	"name" : "IRI",
 	"pools" : [
 		 ],

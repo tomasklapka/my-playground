@@ -1,0 +1,14 @@
+{
+	"category" : "Network-IRI-PetitParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PPIRIParserError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

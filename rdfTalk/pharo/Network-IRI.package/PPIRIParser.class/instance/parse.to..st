@@ -1,7 +1,11 @@
 grammar
 parse: aString to: anIRI
-	| lastSegment |
-	(self parse: aString) flattened do: [ :node |
+	| parsed lastSegment |
+	parsed := self parse: aString.
+	parsed isPetitFailure ifTrue: [ PPIRIParserError signal: parsed message ].
+	"anIRI clear."
+	anIRI isUsingSegmentSeparator: false.
+	parsed flattened do: [ :node |
 		(node isKindOf: PPIRIProperty) ifTrue: [
 			node class == PPIRIComponent
 				ifTrue: [
@@ -17,13 +21,12 @@ parse: aString to: anIRI
 								ifTrue: [ anIRI removeLastPathSegment ]
 								ifFalse: [ anIRI addPathSegment: node value ] ] ] ifFalse: [
 					node name = 'segment-separator' ifTrue: [
-						lastSegment ifNil: [ anIRI addPathSegment: #/ ].
+						anIRI isUsingSegmentSeparator: true.
+						"lastSegment ifNil: [ anIRI addPathSegment: #/ ]."
 						lastSegment := node value ] ifFalse: [
 					node name = 'query'
 						ifTrue: [ anIRI query: (ZnResourceMetaUtils parseQueryFrom: (ReadStream on: node value)) ] ifFalse: [
-					node name = 'fragment' ifTrue: [ anIRI fragment: node value ] ] ] ] ] ] ] ] ] ]
-				ifFalse: [
-					(node name = 'hasDoubleSlashes' and: node value) ifTrue: [ anIRI slashes: true ] ] ] ].
+					node name = 'fragment' ifTrue: [ anIRI fragment: node value ] ] ] ] ] ] ] ] ] ] ] ].
 	lastSegment ifNotNil: [
 		anIRI isSchemeUsingPath: true.
 		lastSegment = #/ ifTrue: [ anIRI addPathSegment: lastSegment ] ]

@@ -1,3 +1,3 @@
-testing
+accessing
 isSchemeUsingPath: aBool
 	^ isSchemeUsingPath := aBool
