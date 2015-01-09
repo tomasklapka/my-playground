@@ -1,4 +1,9 @@
 converting
 asRelativeIRI
 	"Copy the receiver, with scheme, host and port cleared"
-	^ self asRelativeUrl
+	
+	^ self copy
+		scheme: nil;
+		host: nil;
+		port: nil;
+		yourself

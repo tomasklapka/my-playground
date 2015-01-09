@@ -1,5 +1,4 @@
 grammar
 ipassword
-	^ super ipassword ==> [ :nodes |
-		nodes first
-				ifNotNil: [ PPIRIComponent name: 'password' value: nodes asString ] ]
+	^ super ipassword flatten ==> [ :nodes |
+		nodes ifNotNil: [ PPIRIComponent name: 'password' value: nodes ] ]

@@ -6,4 +6,5 @@ testDefrag
 	self assert: (self iri3 defragment asString) equals: 'http://a/b/c/d;p?q'.
 	self assert: (self iri4 defragment asString) equals: '/relative/path'.
 	self assert: (self iri5 defragment asString) equals: '/path?q=1&r=2'.
-	self assert: (self iri6 defragment asString) equals: '/'
+	self assert: (self iri6 defragment asString) equals: '/'.
+	self assert: (self iri7 defragment asString) equals: 'http://www.example.org/red%09rosé'

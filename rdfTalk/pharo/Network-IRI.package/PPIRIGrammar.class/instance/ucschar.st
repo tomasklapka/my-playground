@@ -13,4 +13,4 @@ ucschar
  	/ (self characterRange: 16r40000 -> 16r4FFFD) / (self characterRange: 16r50000 -> 16r5FFFD) / (self characterRange: 16r60000 -> 16r6FFFD)
 	/ (self characterRange: 16r70000 -> 16r7FFFD) / (self characterRange: 16r80000 -> 16r8FFFD) / (self characterRange: 16r90000 -> 16r9FFFD)
 	/ (self characterRange: 16rA0000 -> 16rAFFFD) / (self characterRange: 16rB0000 -> 16rBFFFD) / (self characterRange: 16rC0000 -> 16rCFFFD)
-	/ (self characterRange: 16rD0000 -> 16rDFFFD) / (self characterRange: 16rE1000 -> 16rEFFFD)) memoized
+	/ (self characterRange: 16rD0000 -> 16rDFFFD) / (self characterRange: 16rE1000 -> 16rEFFFD))

@@ -1,7 +1,7 @@
 grammar
 ifragment
-	^ super ifragment ==> [ :nodes |
+	^ super ifragment flatten ==> [ :nodes |
 		OrderedCollection new
 			add: (PPIRIProperty name: 'isAbsolute' value: false);
-			add: (PPIRIComponent name: 'fragment' value: nodes asString);
+			add: (PPIRIComponent name: 'fragment' value: nodes);
 			yourself ]

@@ -1,3 +1,3 @@
 grammar
 isegmentNzNc
-	^ super isegmentNzNc ==> [ :nodes | PPIRIComponent name: 'segment' value: nodes asString ]
+	^ super isegmentNzNc flatten ==> [ :nodes | PPIRIComponent name: 'segment' value: nodes ]

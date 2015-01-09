@@ -1,4 +1,4 @@
 grammar
 port
 	" port = *DIGIT "
-	^ #digit asParser star flatten
+	^ #digit asParser star

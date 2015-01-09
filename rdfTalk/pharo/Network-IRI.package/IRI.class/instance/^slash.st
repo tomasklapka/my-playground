@@ -1,3 +1,3 @@
 convenience
-/ object
-	^ object addedToIRI: self
+/ aPathSegments
+	^ aPathSegments addedToIRI: self

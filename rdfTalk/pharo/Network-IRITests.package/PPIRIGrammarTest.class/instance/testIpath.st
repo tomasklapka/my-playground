@@ -1,7 +1,19 @@
 as yet unclassified
 testIpath
+"""
+ipath          = ipath-abempty   ; begins with '/' or is empty
+                  / ipath-absolute  ; begins with '/' but not '//'
+                  / ipath-noscheme  ; begins with a non-colon segment
+                  / ipath-rootless  ; begins with a segment
+                  / ipath-empty     ; zero characters
+"""
 	#(
-		'' '/' '/aaa' '/bbb/' '/ccc/ddd' 'eee' 'fff/' 'abc/def/012'
-		'//example.com'
-		'//user:pass@www.éxample.com:81/some/path/somewhere.dat'
+		'/begins/with/colon'
+		'/surrounded/by/colons/'
+		'/'
+		'' "empty"
+		'relative/path'
+		'/absolute:with:colons/path'
+		'fff/a' 'abc/def/012'
+		'john@example.com'
 	) do: [ :test | self parse: test rule: #ipath ]

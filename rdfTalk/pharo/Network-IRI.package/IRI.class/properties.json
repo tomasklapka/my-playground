@@ -6,10 +6,18 @@
 		"parser" ],
 	"commentStamp" : "TomasKlipKlapka 12/18/2014 12:14",
 	"instvars" : [
+		"scheme",
+		"host",
+		"port",
+		"segments",
+		"query",
+		"fragment",
+		"username",
+		"password",
 		"isSchemeUsingPath",
 		"isUsingSegmentSeparator" ],
 	"name" : "IRI",
 	"pools" : [
 		 ],
-	"super" : "ZnUrl",
+	"super" : "Object",
 	"type" : "normal" }

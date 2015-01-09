@@ -1,5 +1,4 @@
 grammar
 iusername
-	^ super iusername ==> [ :nodes |
-		nodes first
-				ifNotNil: [ PPIRIComponent name: 'username' value: nodes asString ] ]
+	^ super iusername flatten ==> [ :nodes |
+		nodes 	ifNotNil: [ PPIRIComponent name: 'username' value: nodes ] ]

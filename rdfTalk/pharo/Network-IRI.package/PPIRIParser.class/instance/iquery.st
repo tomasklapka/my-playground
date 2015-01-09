@@ -1,3 +1,3 @@
 grammar
 iquery
-	^ super iquery ==> [ :nodes | PPIRIComponent name: 'query' value: nodes asString ]
+	^ super iquery flatten ==> [ :nodes | PPIRIComponent name: 'query' value: nodes ]

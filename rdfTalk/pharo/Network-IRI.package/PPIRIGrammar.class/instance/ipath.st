@@ -7,4 +7,4 @@ ipath          = ipath-abempty   ; begins with '/' or is empty
                   / ipath-rootless  ; begins with a segment
                   / ipath-empty     ; zero characters
 """
-	^ ipathAbempty / ipathAbsolute / ipathNoscheme / ipathRootless / ipathEmpty
+	^ (ipathAbsolute | ipathNoscheme) / ipathRootless / ipathAbempty / ipathEmpty

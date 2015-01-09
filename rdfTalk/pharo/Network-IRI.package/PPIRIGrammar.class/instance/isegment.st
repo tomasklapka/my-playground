@@ -1,4 +1,4 @@
 grammar
 isegment
 	" isegment = *ipchar "
-	^ ipchar star flatten
+	^ ipchar star

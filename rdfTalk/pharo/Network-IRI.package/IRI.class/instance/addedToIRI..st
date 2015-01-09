@@ -1,3 +1,3 @@
 convenience
 addedToIRI: anIRI
-	^ self addedToZnUrl: anIRI
+	^ anIRI withPathSegments: self pathSegments 

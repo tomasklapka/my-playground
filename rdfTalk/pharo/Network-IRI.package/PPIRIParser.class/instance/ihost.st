@@ -1,3 +1,3 @@
 grammar
 ihost
-	^ super ihost ==> [ :nodes | PPIRIComponent name: 'host' value: nodes asString ]
+	^ super ihost flatten ==> [ :nodes | PPIRIComponent name: 'host' value: nodes ]
