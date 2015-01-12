@@ -1,3 +1,0 @@
-testing
-isUsingSegmentSeparator
-	^ isUsingSegmentSeparator isNotNil and: isUsingSegmentSeparator

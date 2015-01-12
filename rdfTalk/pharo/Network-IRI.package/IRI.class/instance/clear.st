@@ -5,9 +5,7 @@ clear
 	self password: nil.
 	self host: nil.
 	self port: nil.
-	self clearPath.
+	self path: nil.
 	self queryRemoveAll.
 	self fragment: nil.
-	isSchemeUsingPath := false.
-	isUsingSegmentSeparator := true.
 	^ self

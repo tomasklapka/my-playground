@@ -1,0 +1,3 @@
+accessing
+removeLastSegment
+	self removeLast

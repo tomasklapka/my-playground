@@ -1,0 +1,14 @@
+{
+	"category" : "Network-IRI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IRIPath",
+	"pools" : [
+		 ],
+	"super" : "Path",
+	"type" : "variable" }
