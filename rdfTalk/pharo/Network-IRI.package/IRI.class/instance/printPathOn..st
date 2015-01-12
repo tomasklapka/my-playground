@@ -5,4 +5,5 @@ printPathOn: stream
 		stream nextPut: $/.
 		each == #/
 			ifFalse: [ 
-				self encodePath: each on: stream ] ] 
+				stream nextPutAll: each
+				"self encodePath: each on: stream" ] ] 
