@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"absoluteIRI" : "TomasKlipKlapka 12/23/2014 03:01",
+		"canGoPathUp:" : "TomasKlipKlapka 12/23/2014 13:02",
+		"dictionarize:" : "TomasKlipKlapka 12/23/2014 03:54",
+		"iauthority" : "TomasKlipKlapka 12/23/2014 02:50",
+		"ifragment" : "TomasKlipKlapka 1/8/2015 16:33",
+		"ihost" : "TomasKlipKlapka 1/8/2015 16:32",
+		"ipassword" : "TomasKlipKlapka 1/8/2015 16:29",
+		"ipath" : "TomasKlipKlapka 12/23/2014 01:21",
+		"ipathEmpty" : "TomasKlipKlapka 12/23/2014 02:32",
+		"iquery" : "TomasKlipKlapka 1/8/2015 16:36",
+		"irelativeRef" : "TomasKlipKlapka 12/23/2014 03:25",
+		"isegment" : "TomasKlapka 1/12/2015 00:59",
+		"isegmentNz" : "TomasKlapka 1/12/2015 01:00",
+		"isegmentNzNc" : "TomasKlapka 1/12/2015 00:59",
+		"isegmentSeparator" : "TomasKlipKlapka 12/23/2014 12:23",
+		"iuserinfo" : "TomasKlipKlapka 12/23/2014 02:48",
+		"iusername" : "TomasKlipKlapka 1/8/2015 16:26",
+		"parse:to:" : "TomasKlapka 1/12/2015 13:21",
+		"pctEncoded" : "TomasKlapka 1/12/2015 00:52",
+		"port" : "TomasKlipKlapka 1/8/2015 16:20",
+		"scheme" : "TomasKlipKlapka 1/8/2015 16:22",
+		"transformSegment" : "TomasKlapka 1/12/2015 00:58" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "RDFTalk-Serializers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NTriplesSerializer",
+	"pools" : [
+		 ],
+	"super" : "DataSerializer",
+	"type" : "normal" }

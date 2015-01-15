@@ -1,0 +1,14 @@
+{
+	"category" : "RDFTalk-Core",
+	"classinstvars" : [
+		"count" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BlankNodesIDGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

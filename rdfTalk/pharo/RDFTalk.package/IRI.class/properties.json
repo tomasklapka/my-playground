@@ -1,0 +1,21 @@
+{
+	"category" : "RDFTalk-IRI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"parser" ],
+	"commentStamp" : "TomasKlipKlapka 12/18/2014 12:14",
+	"instvars" : [
+		"scheme",
+		"username",
+		"password",
+		"host",
+		"port",
+		"path",
+		"query",
+		"fragment" ],
+	"name" : "IRI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

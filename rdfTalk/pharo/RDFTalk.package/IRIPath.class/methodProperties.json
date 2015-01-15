@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"*" : "TomasKlapka 1/12/2015 13:09",
+		"/" : "TomasKlapka 1/12/2015 13:09",
+		"from:delimiter:" : "TomasKlapka 1/12/2015 13:03",
+		"fromString:" : "TomasKlapka 1/12/2015 10:46",
+		"parent" : "TomasKlapka 1/12/2015 13:03",
+		"root" : "TomasKlapka 1/12/2015 13:03",
+		"workingDirectory" : "TomasKlapka 1/12/2015 13:03" },
+	"instance" : {
+		"addSegment:" : "TomasKlapka 1/12/2015 10:57",
+		"addSegments:" : "TomasKlapka 1/12/2015 10:57",
+		"clear" : "TomasKlapka 1/12/2015 10:59",
+		"close" : "TomasKlapka 1/12/2015 11:00",
+		"directory" : "TomasKlapka 1/12/2015 10:15",
+		"file" : "TomasKlapka 1/12/2015 10:15",
+		"firstSegment" : "TomasKlapka 1/12/2015 10:57",
+		"lastSegment" : "TomasKlapka 1/12/2015 10:57",
+		"relativeToPath:" : "TomasKlapka 1/12/2015 13:05",
+		"removeFirstSegment" : "TomasKlapka 1/12/2015 11:01",
+		"removeLastSegment" : "TomasKlapka 1/12/2015 10:59",
+		"segments" : "TomasKlapka 1/12/2015 10:59" } }

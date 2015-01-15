@@ -1,3 +1,0 @@
-grammar
-doubleSlashes
-	^ '//' asParser

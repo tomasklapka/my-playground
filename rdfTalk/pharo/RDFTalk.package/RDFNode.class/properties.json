@@ -1,0 +1,14 @@
+{
+	"category" : "RDFTalk-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nominalValue" ],
+	"name" : "RDFNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

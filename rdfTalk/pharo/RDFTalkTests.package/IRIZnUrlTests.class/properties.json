@@ -1,0 +1,14 @@
+{
+	"category" : "RDFTalkTests-IRI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IRIZnUrlTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

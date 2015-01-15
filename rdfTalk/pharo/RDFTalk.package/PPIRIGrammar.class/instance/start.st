@@ -1,0 +1,3 @@
+grammar
+start
+	^ iriReference end

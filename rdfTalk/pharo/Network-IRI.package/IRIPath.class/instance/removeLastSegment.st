@@ -1,3 +1,0 @@
-accessing
-removeLastSegment
-	self removeLast

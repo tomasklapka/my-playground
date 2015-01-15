@@ -1,0 +1,3 @@
+converting
+asURIString
+	^ self asString

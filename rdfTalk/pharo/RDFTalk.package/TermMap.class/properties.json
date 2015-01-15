@@ -1,0 +1,14 @@
+{
+	"category" : "RDFTalk-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TermMap",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"type" : "normal" }

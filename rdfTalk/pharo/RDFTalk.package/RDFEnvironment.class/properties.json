@@ -1,0 +1,14 @@
+{
+	"category" : "RDFTalk-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RDFEnvironment",
+	"pools" : [
+		 ],
+	"super" : "Profile",
+	"type" : "normal" }

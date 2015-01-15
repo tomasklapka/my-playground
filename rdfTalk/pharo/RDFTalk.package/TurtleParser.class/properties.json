@@ -1,0 +1,20 @@
+{
+	"category" : "RDFTalk-Parsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"environment",
+		"graph",
+		"base",
+		"filter",
+		"quick",
+		"processor",
+		"bnHash" ],
+	"name" : "TurtleParser",
+	"pools" : [
+		 ],
+	"super" : "DataParser",
+	"type" : "normal" }

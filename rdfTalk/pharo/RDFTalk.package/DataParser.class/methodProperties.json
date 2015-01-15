@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"parse:" : "TomasKlipKlapka 12/16/2014 20:03",
+		"parse:base:" : "TomasKlipKlapka 12/16/2014 20:03",
+		"parse:base:filter:" : "TomasKlipKlapka 12/16/2014 20:03",
+		"parse:base:filter:toGraph:" : "TomasKlipKlapka 12/16/2014 20:01",
+		"parse:base:toGraph:" : "TomasKlipKlapka 12/16/2014 20:04",
+		"parse:filter:" : "TomasKlipKlapka 12/16/2014 20:04",
+		"parse:filter:toGraph:" : "TomasKlipKlapka 12/16/2014 20:04",
+		"parse:toGraph:" : "TomasKlipKlapka 12/16/2014 20:05",
+		"process:" : "TomasKlipKlapka 12/16/2014 20:03",
+		"process:base:" : "TomasKlipKlapka 12/16/2014 20:03",
+		"process:base:filter:" : "TomasKlipKlapka 12/16/2014 20:03",
+		"process:filter:" : "TomasKlipKlapka 12/16/2014 20:03",
+		"process:processor:" : "TomasKlipKlapka 12/16/2014 20:02",
+		"process:processor:base:" : "TomasKlipKlapka 12/16/2014 20:02",
+		"process:processor:base:filter:" : "TomasKlipKlapka 12/16/2014 20:02",
+		"process:processor:filter:" : "TomasKlipKlapka 12/16/2014 20:02",
+		"processorGraph" : "TomasKlipKlapka 12/16/2014 20:02" } }

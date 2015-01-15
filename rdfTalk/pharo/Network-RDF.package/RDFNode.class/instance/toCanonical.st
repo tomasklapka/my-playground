@@ -1,3 +1,0 @@
-converting
-toCanonical
-	^ self toNT

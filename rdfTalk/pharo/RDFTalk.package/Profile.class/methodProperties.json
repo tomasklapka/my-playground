@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"importProfile:" : "TomasKlipKlapka 12/16/2014 18:02",
+		"initialize" : "TomasKlipKlapka 12/16/2014 18:03",
+		"initializeDefaultPrefixes" : "TomasKlipKlapka 12/16/2014 18:05",
+		"initializeRequiredPrefixes" : "TomasKlipKlapka 12/16/2014 18:06",
+		"prefixes" : "TomasKlipKlapka 12/16/2014 18:00",
+		"resolve:" : "TomasKlipKlapka 12/16/2014 19:17",
+		"setDefaultPrefix:" : "TomasKlipKlapka 12/16/2014 18:02",
+		"setDefaultVocabulary:" : "TomasKlipKlapka 12/16/2014 18:02",
+		"setPrefix:IRI:" : "TomasKlipKlapka 12/16/2014 18:03",
+		"setPrefix:URI:" : "TomasKlipKlapka 12/16/2014 18:05",
+		"setTerm:IRI:" : "TomasKlipKlapka 12/16/2014 18:03",
+		"shrink:" : "TomasKlipKlapka 12/16/2014 18:01",
+		"terms" : "TomasKlipKlapka 12/16/2014 18:01" } }

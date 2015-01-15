@@ -1,0 +1,14 @@
+{
+	"category" : "RDFTalk-IRI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IRIAbsolutePath",
+	"pools" : [
+		 ],
+	"super" : "IRIPath",
+	"type" : "variable" }

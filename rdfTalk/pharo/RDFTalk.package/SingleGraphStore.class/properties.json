@@ -1,0 +1,14 @@
+{
+	"category" : "RDFTalk-Stores",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"graph" ],
+	"name" : "SingleGraphStore",
+	"pools" : [
+		 ],
+	"super" : "GraphStore",
+	"type" : "normal" }

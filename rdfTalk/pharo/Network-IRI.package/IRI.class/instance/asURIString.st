@@ -1,3 +1,0 @@
-converting
-asURIString
-	^ self asString

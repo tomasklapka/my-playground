@@ -1,0 +1,27 @@
+{
+	"category" : "RDFTalk-Parsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"h16",
+		"ls32",
+		"ipv6Address",
+		"h16colon",
+		"elision",
+		"ipv6AddressNoElision",
+		"ipv6AddressLeftElision",
+		"ipv6AddressLeft1Elision",
+		"ipv6AddressLeft2Elision",
+		"ipv6AddressLeft3Elision",
+		"ipv6AddressLeft4Elision",
+		"ipv6AddressLeft5Elision",
+		"ipv6AddressLeft6Elision",
+		"ipv6AddressRightElision" ],
+	"name" : "PPIPv6Grammar",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

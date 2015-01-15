@@ -1,3 +1,0 @@
-converting
-asIRI
-	^ self

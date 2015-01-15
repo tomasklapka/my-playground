@@ -1,0 +1,14 @@
+{
+	"category" : "RDFTalk-Parsers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PPIRIParser",
+	"pools" : [
+		 ],
+	"super" : "PPIRIGrammar",
+	"type" : "normal" }
