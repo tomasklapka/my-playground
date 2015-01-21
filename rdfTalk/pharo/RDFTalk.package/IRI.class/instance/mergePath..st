@@ -1,12 +1,8 @@
-accessing
+converting
 mergePath: aReference
-	(self hasHost and: self isSlash)
-		ifTrue: [ self addPathSegments: aReference pathSegments ]
-		ifFalse: [ 
-			self isFilePath ifTrue: [ self removeLastPathSegment ].
-			(aReference firstPathSegment = #/ and: self isDirectoryPath) ifTrue: [ self removeLastPathSegment ].
-			aReference pathSegments do: [ :segment |
-				(self isSlash not or: segment ~= #/) ifTrue: [
-					(segment = '..' and: self canGoPathUp)
-						ifTrue: [ self removeLastPathSegment. self removeLastPathSegment ]
-						ifFalse: [ self addPathSegment: segment ] ] ] ]
+	| base newPath |
+	base := self pathOrRoot.
+	base last isEmptyOrNil not ifTrue: [ base := base parent ].
+	newPath := base resolvePath: aReference.
+	^ ((aReference isNotNil and: aReference last isEmptyOrNil) and: newPath last isEmptyOrNil not)
+		ifTrue: [ newPath / '' ] ifFalse: [ newPath ]

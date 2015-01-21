@@ -1,3 +1,3 @@
-accessing-path
+accessing - path
 addPathSegment: segment
-	self path: path / segment
+	self path: self pathOrRoot / segment

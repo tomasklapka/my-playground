@@ -1,4 +1,4 @@
-accessing
+testing
 canGoPathUp
 	self segments ifNil: [ ^ false ].
 	self segments size = 0 ifTrue: [ ^ false ].

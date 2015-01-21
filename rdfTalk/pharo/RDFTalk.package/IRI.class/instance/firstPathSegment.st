@@ -1,5 +1,5 @@
-accessing-path
+accessing - path
 firstPathSegment
 	^ self isSlash
 		ifTrue: [ nil ]
-		ifFalse: [ segments first ]
+		ifFalse: [ self pathOrRoot first ]

@@ -1,3 +1,3 @@
-accessing-path
+accessing - path
 closePath
-	path close
+	self pathOrRoot last isEmptyOrNil not ifTrue: [ self path: self pathOrRoot / '' ]

@@ -13,7 +13,7 @@
 		"quick",
 		"processor",
 		"bnHash" ],
-	"name" : "TurtleParser",
+	"name" : "R2RTurtleParser",
 	"pools" : [
 		 ],
 	"super" : "DataParser",

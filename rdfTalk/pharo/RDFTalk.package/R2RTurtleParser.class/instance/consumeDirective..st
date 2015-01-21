@@ -9,7 +9,7 @@ consumeDirective: toParse
 		prefix := s copyFrom: 1 to: i-1.
 		s := self skipWhiteSpace: (s copyFrom: (i := i+1)+1 to: s size).
 		self expect: '<' in: s.
-		environment setPrefix: prefix IRI: ((base resolveReference: (TurtleParser decodeString: (s copyFrom: 2 to: (i := s indexOf: $>)-1)))).
+		environment setPrefix: prefix IRI: ((base resolveReference: (R2RTurtleParser decodeString: (s copyFrom: 2 to: (i := s indexOf: $>)-1)))).
 		s := self skipWhiteSpace: (s copyFrom: (i := i+1) to: s size).
 		self expect: '.' in: s.
 		s := s copyFrom: 2 to: s size.
@@ -21,14 +21,14 @@ consumeDirective: toParse
 		prefix := s copyFrom: 1 to: i-1.
 		s := self skipWhiteSpace: (s copyFrom: (i := i+1)+1 to: s size).
 		self expect: '<' in: s.
-		environment setPrefix: prefix IRI: ((base resolveReference: (TurtleParser decodeString: (s copyFrom: 2 to: (i := s indexOf: $>)-1)))).
+		environment setPrefix: prefix IRI: ((base resolveReference: (R2RTurtleParser decodeString: (s copyFrom: 2 to: (i := s indexOf: $>)-1)))).
 		s := self skipWhiteSpace: (s copyFrom: (i := i+1)+1 to: s size).
 		^ s
 	].
 	((s copyFrom: 2 to: 5) = 'base') ifTrue: [
 		s := self skipWhiteSpace: (s copyFrom: 6 to: s size).
 		self expect: '<' in: s.
-		base := base resolveReference: (TurtleParser decodeString: (s copyFrom: 2 to: (i := s indexOf: $>)-1)).
+		base := base resolveReference: (R2RTurtleParser decodeString: (s copyFrom: 2 to: (i := s indexOf: $>)-1)).
 		s := self skipWhiteSpace: (s copyFrom: (i := i+1)+1 to: s size).
 		self expect: '.' in: s.
 		s := s copyFrom: 2 to: s size.
@@ -37,7 +37,7 @@ consumeDirective: toParse
 	((s copyFrom: 1 to: 4) asUppercase = 'BASE') ifTrue: [
 		s := self skipWhiteSpace: (s copyFrom: 6 to: s size).
 		self expect: '<' in: s.
-		base := base resolveReference: (TurtleParser decodeString: (s copyFrom: 2 to: (i := s indexOf: $>)-1)).
+		base := base resolveReference: (R2RTurtleParser decodeString: (s copyFrom: 2 to: (i := s indexOf: $>)-1)).
 		s := self skipWhiteSpace: (s copyFrom: (i := i+1)+1 to: s size).
 		^ s
 	].

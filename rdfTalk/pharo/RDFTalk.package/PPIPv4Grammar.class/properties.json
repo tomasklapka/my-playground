@@ -7,8 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"ipv4Address",
-		"decOctet",
-		"start" ],
+		"decOctet" ],
 	"name" : "PPIPv4Grammar",
 	"pools" : [
 		 ],

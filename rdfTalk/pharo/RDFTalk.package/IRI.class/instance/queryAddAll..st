@@ -1,4 +1,4 @@
-accessing-query
+accessing - query
 queryAddAll: keyedCollection
 	"Note that we use #addAllMulti:"
 

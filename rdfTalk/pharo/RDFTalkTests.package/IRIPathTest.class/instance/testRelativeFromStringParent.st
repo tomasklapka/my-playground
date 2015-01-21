@@ -6,6 +6,7 @@ testRelativeFromStringParent
 	path := IRIPath from: '../..'.
 	
 	self assert: path isRelative.
-	self assert: path size equals: 2.
+	self assert: path size equals: 3.
 	self assert: (path at: 1) equals: '..'.
 	self assert: (path at: 2) equals: '..'.
+	self assert: (path at: 3) equals: ''

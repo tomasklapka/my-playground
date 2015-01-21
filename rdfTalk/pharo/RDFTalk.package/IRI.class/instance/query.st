@@ -1,3 +1,3 @@
-accessing
+accessing - instance variables
 query
 	^ query

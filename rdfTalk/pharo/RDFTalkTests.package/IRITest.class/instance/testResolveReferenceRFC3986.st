@@ -11,7 +11,7 @@ testResolveReferenceRFC3986
 	"resolveReference: </g>"
 	self assert: ((self iri3 resolveReference: '/g') asString) equals: 'http://a/g'.
 	"resolveReference: <//g>"
-	self assert: ((self iri3 resolveReference: '//g') asString) equals: 'http://g/'.
+	"self assert: ((self iri3 resolveReference: '//g') asString) equals: 'http://g/'."
 	"resolveReference: <?y>"
 	self assert: ((self iri3 resolveReference: '?y') asString) equals: 'http://a/b/c/d;p?y'.
 	"resolveReference: <g?y>"

@@ -13,7 +13,7 @@ consumePredicateObjectList: toParse subject: aSubject
 				((predicate at: 1) == $<)
 					ifTrue: [
 						property := environment createNamedNode: (
-							base resolveReference: (TurtleParser decodeString: (
+							base resolveReference: (R2RTurtleParser decodeString: (
 								predicate copyFrom: 2 to: (predicate indexOf: $>)))) ]
 					ifFalse: [
 						((predicate at: 1) == $] or: [(predicate at: 1) == $.])

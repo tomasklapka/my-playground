@@ -1,4 +1,4 @@
-accessing
+navigating
 relativeToPath: aPath
 	"Return the receiver as relative to the argument aPath"
 	

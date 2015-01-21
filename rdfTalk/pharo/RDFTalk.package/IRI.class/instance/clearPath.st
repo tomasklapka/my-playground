@@ -1,3 +1,3 @@
-accessing-path
+accessing - path
 clearPath
-	path clear
+	path := nil

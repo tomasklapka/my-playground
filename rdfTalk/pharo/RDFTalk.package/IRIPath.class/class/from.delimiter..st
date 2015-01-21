@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 from: aString delimiter: aDelimiterCharacter 
 	"Answer a path composed of several elements delimited by aCharacter"
 	| pathClass |

@@ -1,3 +1,3 @@
 as yet unclassified
 parser
-	^ TurtleParser new
+	^ R2RTurtleParser new

@@ -1,4 +1,3 @@
-accessing-path
+accessing - instance variables
 path
-	path ifNil: [ path := IRIPath new ].
 	^ path

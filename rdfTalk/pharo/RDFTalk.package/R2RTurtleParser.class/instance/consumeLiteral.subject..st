@@ -25,7 +25,7 @@ consumeLiteral: toParse subject: aSubject
 			value := s copyFrom: 2 to: end-1.
 			s := s copyFrom: value size + 3 to: s size
 		].
-	value := TurtleParser decodeString: value.
+	value := R2RTurtleParser decodeString: value.
 	(s at: 1) == $@
 		ifTrue: [
 			(re := self simpleObjectToken) matchesPrefix: s.

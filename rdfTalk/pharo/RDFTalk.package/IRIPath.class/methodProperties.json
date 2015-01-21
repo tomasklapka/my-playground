@@ -1,22 +1,18 @@
 {
 	"class" : {
 		"*" : "TomasKlapka 1/12/2015 13:09",
-		"/" : "TomasKlapka 1/12/2015 13:09",
+		"/" : "TomasKlapka 1/19/2015 22:12",
+		"addElement:to:" : "TomasKlapka 1/20/2015 15:30",
+		"addEmptyElementTo:" : "TomasKlapka 1/19/2015 21:57",
+		"addParentElementTo:" : "TomasKlapka 1/20/2015 15:41",
+		"canonicalizeElements:" : "TomasKlapka 1/20/2015 15:40",
 		"from:delimiter:" : "TomasKlapka 1/12/2015 13:03",
-		"fromString:" : "TomasKlapka 1/12/2015 10:46",
 		"parent" : "TomasKlapka 1/12/2015 13:03",
 		"root" : "TomasKlapka 1/12/2015 13:03",
 		"workingDirectory" : "TomasKlapka 1/12/2015 13:03" },
 	"instance" : {
-		"addSegment:" : "TomasKlapka 1/12/2015 10:57",
-		"addSegments:" : "TomasKlapka 1/12/2015 10:57",
-		"clear" : "TomasKlapka 1/12/2015 10:59",
-		"close" : "TomasKlapka 1/12/2015 11:00",
-		"directory" : "TomasKlapka 1/12/2015 10:15",
-		"file" : "TomasKlapka 1/12/2015 10:15",
-		"firstSegment" : "TomasKlapka 1/12/2015 10:57",
-		"lastSegment" : "TomasKlapka 1/12/2015 10:57",
-		"relativeToPath:" : "TomasKlapka 1/12/2015 13:05",
-		"removeFirstSegment" : "TomasKlapka 1/12/2015 11:01",
-		"removeLastSegment" : "TomasKlapka 1/12/2015 10:59",
-		"segments" : "TomasKlapka 1/12/2015 10:59" } }
+		"/" : "TomasKlapka 1/20/2015 12:50",
+		"do:" : "TomasKlapka 1/20/2015 14:26",
+		"first" : "TomasKlapka 1/20/2015 13:06",
+		"last" : "TomasKlapka 1/20/2015 13:07",
+		"relativeToPath:" : "TomasKlapka 1/12/2015 13:05" } }

@@ -1,4 +1,4 @@
-accessing
+accessing - instance variables
 scheme: anObject
 	anObject isNil
 		ifTrue: [ scheme := nil ]

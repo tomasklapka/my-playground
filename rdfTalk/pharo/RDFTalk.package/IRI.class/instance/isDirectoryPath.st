@@ -1,6 +1,6 @@
 testing
 isDirectoryPath
 	^ self hasPath 
-		ifTrue: [ segments last = #/ ]
+		ifTrue: [ path last isEmptyOrNil ]
 		ifFalse: [ true ]
 	

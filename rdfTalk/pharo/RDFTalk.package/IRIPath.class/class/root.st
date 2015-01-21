@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 root
 	"Answer the root path - ie, / on unix"
 	

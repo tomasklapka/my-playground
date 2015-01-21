@@ -1,3 +1,5 @@
-accessing-path
+accessing - path
 pathSegments
-	^ segments
+	^ path isNil
+		ifTrue: [ #() ]
+		ifFalse: [ path segments ]

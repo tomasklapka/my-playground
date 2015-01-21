@@ -2,11 +2,11 @@ tests
 testIRIToURIConversion
 	"IRI to URI conversion"
 	self
-		assert: ((IRI fromString: 'http://www.example.org/red%09rosé#red') asURIString)
+		assert: ((IRI fromString: 'http://www.example.org/red%09rosé#red') encoded)
 		equals: 'http://www.example.org/red%09ros%C3%A9#red'.
 	"IRI to URI conversion with surrogate pairs"
 	self
-		assert: ((IRI fromString: 'http://example.com/', (Array withAll: { 16r10300 asCharacter. 16r10301 asCharacter. 16r10302 asCharacter })) asURIString)
+		assert: ((IRI fromString: 'http://example.com/', (Array withAll: { 16r10300 asCharacter. 16r10301 asCharacter. 16r10302 asCharacter })) encoded)
 		equals: 'http://example.com/%F0%90%8C%80%F0%90%8C%81%F0%90%8C%82'.
 	"IRI<->URI conversion"
 	(Dictionary newFrom: {
@@ -20,6 +20,6 @@ testIRIToURIConversion
 			-> 'http://www.example.org/%2F'
 	}) keysAndValuesDo: [ :iri :uri |
 		"IRI->URI"
-		self assert: ((IRI fromString: iri) asURIString) equals: uri.
+		self assert: (IRI fromString: iri) encoded equals: uri.
 		"URI->IRI"
-		self assert: ((IRI fromString: uri) asIRIString) equals: iri ]
+		self assert: (IRI fromString: uri) asString equals: iri ]

@@ -5,7 +5,7 @@ clear
 	self password: nil.
 	self host: nil.
 	self port: nil.
-	self path: nil.
+	self clearPath.
 	self queryRemoveAll.
 	self fragment: nil.
 	^ self

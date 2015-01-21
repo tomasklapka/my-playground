@@ -1,3 +1,3 @@
 *RDFTalk
 asIRIString
-	^ IRI decodeIRI: self asString
+	^ (IRI fromString: self asString) asString
